@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { StreamMessageReader, StreamMessageWriter } from 'vscode-jsonrpc';
 import fetch from 'node-fetch';
 import minimist from 'minimist';
