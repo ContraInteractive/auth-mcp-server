@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "name-of-service": {
+      "type": "stdio",
+      "command": "mcp-proxy",
+      "args": [
+        "--url","https://api.your-service.com/mcp",
+        "--token","${env:YOUR_SERVICE_TOKEN}"
+      ]
+    }
+  }
+}
