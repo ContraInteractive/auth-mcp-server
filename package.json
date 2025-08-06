@@ -1,5 +1,5 @@
 {
-  "name": "auth-mcp-proxy",
+  "name": "@alloyking-man/auth-mcp-proxy",
   "version": "1.0.1",
   "description": "A stdio→HTTP proxy for Model Context Protocol with Bearer auth",
   "main": "index.mjs",
@@ -21,6 +21,9 @@
     "stdio",
     "http"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "alloyking@gmail.com",
   "license": "MIT",
   "dependencies": {

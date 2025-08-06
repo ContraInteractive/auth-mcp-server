@@ -5,4 +5,4 @@ A tiny stdio→HTTP proxy for Model Context Protocol, forwarding every JSON-RPC 
 ## Install
 
 ```bash
-npm install -g auth-mcp-proxy
+npm install -g @alloyking-man/auth-mcp-proxy
