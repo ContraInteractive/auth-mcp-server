@@ -1,18 +1,18 @@
 {
-  "name": "auth-mcp-proxy",              // choose a unique name on npm
-  "version": "1.0.0",               // start with a semver
+  "name": "auth-mcp-proxy",
+  "version": "1.0.0",
   "description": "A stdio→HTTP proxy for Model Context Protocol with Bearer auth",
-  "main": "index.mjs",              // entry point (optional)
+  "main": "index.mjs",
   "type": "module",
   "bin": {
-    "auth-mcp-proxy": "./index.mjs"      // this makes `auth-mcp-proxy` the CLI
+    "auth-mcp-proxy": "./index.mjs"
   },
   "scripts": {
     "test": "echo \"No tests yet\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/containteractive/auth-mcp-proxy.git"
+    "url": "git+https://github.com/contrainteractive/auth-mcp-proxy.git"
   },
   "keywords": [
     "mcp",
@@ -21,8 +21,8 @@
     "stdio",
     "http"
   ],
-  "author": "Your Name <you@example.com>",
-  "license": "MIT",                 // or your preferred license
+  "author": "alloyking@gmail.com",
+  "license": "MIT",
   "dependencies": {
     "minimist": "^1.2.8",
     "node-fetch": "^3.4.0",
